@@ -1,10 +1,11 @@
 {
-  "name": "jest-matchers",
+  "name": "x-o1js-jest-matchers",
   "version": "0.1.0",
   "description": "Jest utils for testing o1js code",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc -p ."
   },
   "keywords": [],
   "author": "",
@@ -12,10 +13,11 @@
   "devDependencies": {
     "@babel/core": "^7.23.9",
     "@babel/preset-env": "^7.23.9",
+    "@types/jest": "^29.5.12",
     "babel-jest": "^29.7.0",
-    "jest": "^29.7.0"
-  },
-  "peerDependencies": {
-    "o1js": "0.16.2"
+    "jest": "^29.7.0",
+    "o1js": "0.16.2",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
   }
 }

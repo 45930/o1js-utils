@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "NodeNext",
+    "outDir": "./build",
+    "moduleResolution": "NodeNext",
+    "rootDir": ".",
+    "skipLibCheck": true
+  },
+  "include": ["./index.ts"],
+  "files": [
+    "jest.d.ts"
+  ]
+}

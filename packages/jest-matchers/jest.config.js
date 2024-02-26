@@ -3,5 +3,6 @@ export default {
 		'^.+\\.js?$': 'babel-jest'
 	},
 	testEnvironment: 'node',
-	setupFilesAfterEnv: ['./setupTests.js']
+	setupFilesAfterEnv: ['./setupTests.js'],
+	preset: 'ts-jest'
 };
