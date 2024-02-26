@@ -1,0 +1,27 @@
+{
+  "name": "o1js-utils",
+  "version": "0.1.0",
+  "description": "Small package of common constants and util functions I use when building with o1js ",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/45930/o1js-utils.git"
+  },
+  "keywords": [
+    "mina",
+    "o1js"
+  ],
+  "author": "45930",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/45930/o1js-utils/issues"
+  },
+  "homepage": "https://github.com/45930/o1js-utils#readme"
+}
